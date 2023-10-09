@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+env/
+
+# Database
+*.sqlite3
+
+# Generated files
+__pycache__/
+*.pyc
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Secrets and Configurations
+*.env
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+
+# Logs and Temporary files
+*.log
+*.swp
+
+# Dependency directories
+node_modules/
+*.egg-info/
+
+# Django Migration files
+**/migrations/
+
+# User-specific files
+.DS_Store
