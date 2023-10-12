@@ -18,11 +18,16 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path,include
+from users import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
     path('user/', include('users.urls')),
+
+    path('dashboard/', views.dashboard, name='dashboard'),
+    path('unauthorised/', views.unauthorised, name='401'),
+    path('not-found/', views.not_found, name='404'),
 ]
 
 
