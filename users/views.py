@@ -38,8 +38,7 @@ def register(request):
     return render(request, 'users/register.html')
 
 
-def loginUser(request):
-    return render(request, 'users/login')
+
 
 
 def about(request,pk):
@@ -62,6 +61,7 @@ def dashboard(request):
     return render(request, 'users/index.html',cxt)
 
 
+@login_required(login_url='login')
 def setting(request):
     profile = WriterProfile.objects.get(user=request.user)
     if request.method == 'POST':

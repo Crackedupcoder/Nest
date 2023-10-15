@@ -1,9 +1,11 @@
 {% extends 'users/main.html' %}
 {% load static %}
 {% block content %}
-        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
-        <link href="{% static 'css/styles1.css' %}" rel="stylesheet" />
-
+<head>
+    <title>{% block title %}{{profile.name}} | Dashboard{% endblock title %} </title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="{% static 'css/styles1.css' %}" rel="stylesheet" />
+</head>
     <body class="sb-nav-fixed">
         {% include 'users/navbar.html' %}
         {% include 'users/sidenav.html' %}
@@ -103,7 +105,7 @@
                                         {% for post in posts %}
                                         <tr>
                                             <td>{{post.author}}</td>
-                                            <td>{{post.title}}</td>
+                                            <a href="#"><td>{{post.title}}</td></a>
                                             <td>{{post.category}}</td>
                                             <td>61</td>
                                             <td>{{post.created|timesince}}</td>

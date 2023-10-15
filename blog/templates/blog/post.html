@@ -2,7 +2,11 @@
 {% load static %}
 {% block content %}
 
-
+    <head>
+        <title>
+            {% block title %} {{post.title}}{% endblock title %}
+        </title>
+    </head>
     <body>
         <!-- Navigation-->
         {% include 'navbar.html' %}

@@ -42,6 +42,7 @@
                             <input class="form-control" id="inputUsername" name="name" type="text" placeholder="Enter your Name" value="{{profile.name}}">
                         </div>
                         <!-- Form Row-->
+                        {% if request.user.is_staff %}
                         <div class="row gx-3 mb-3">
                             <!-- Form Group (first name)-->
                             <div class="col-md-6">
@@ -67,11 +68,13 @@
                                 <input class="form-control" id="inputLocation" type="text" name="social_media4"  placeholder="Enter your LinkedIn link" value="{{profile.social_media4}}">
                             </div>
                         </div>
+                        {% endif %}
                         <!-- Form Group (email address)-->
                         <div class="mb-3">
                             <label class="small mb-1" for="inputEmailAddress">Email address</label>
                             <input class="form-control" id="inputEmailAddress" name="email" type="email" placeholder="Enter your email address" value="{{request.user.email}}">
                         </div>
+                        {% if request.user.is_staff %}
                         <div class="mb-3">
                             <label class="small mb-1" for="inputBio">Bio</label>
                             <textarea class="form-control" id="inputBio" rows="5" cols="5" style="resize: none;" name="bio" placeholder="Enter your Bio">
@@ -91,6 +94,7 @@
                                 <input class="form-control" id="inputBirthday" type="text" name="location" placeholder="Enter your location" value="{{profile.location}}">
                             </div>
                         </div>
+                        {% endif %}
                         <!-- Save changes button-->
                         <button class="btn btn-primary" type="submit">Save changes</button>
                 </div>

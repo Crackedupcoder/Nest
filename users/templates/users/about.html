@@ -1,6 +1,9 @@
 {% extends 'main.html' %}
 {% load static %}
 {% block content %}
+    <head>
+        <title>{% block title %}{{profile.name}} | About{% endblock title %}</title>
+    </head>
     <body>
         <!-- Navigation-->
         {% include 'navbar.html' %}

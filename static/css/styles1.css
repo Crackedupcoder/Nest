@@ -4906,6 +4906,12 @@ textarea.form-control-lg {
   border-left-width: var(--bs-list-group-border-width);
 }
 
+.post-title {
+ font-size: 1.875rem;
+ margin-top: 1.875rem;
+ margin-bottom: 0.625rem;
+}
+
 @media (min-width: 576px) {
   .list-group-horizontal-sm {
     flex-direction: row;
