@@ -14,7 +14,9 @@
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
                             <h1>{{profile.name}}</h1>
+                            {% if profile.bio %}
                             <span class="subheading">{{profile.bio}}.</span>
+                            {% endif %}
                         </div>
                     </div>
                 </div>

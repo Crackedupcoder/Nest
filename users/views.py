@@ -1,12 +1,11 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth.models import User
-from .models import WriterProfile, UserProfile
+from .models import Profile
 from blog.models import Post
-from .forms import UserUpdateForm, WriterProfileUpdateForm
 from django.contrib import messages
 from django.contrib.auth import login,logout,authenticate
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponse
+
 
 
 
@@ -28,7 +27,7 @@ def register(request):
                 user = User.objects.create_user(username=username, email=email, password=password)
                 user.save()
                 user_model = User.objects.get(username=username)
-                new_profile = WriterProfile.objects.create(user=user_model, id=user_model.id)
+                new_profile = Profile.objects.create(user=user_model, id=user_model.id)
                 new_profile.save()
                 login(request, user)
                 return redirect('setting')
@@ -43,7 +42,7 @@ def register(request):
 
 def about(request,pk):
     user= User.objects.get(username=pk)
-    profile = WriterProfile.objects.get(user=user)
+    profile = Profile.objects.get(user=user)
     posts = Post.objects.filter(author=user)
     cxt = {'user':user, 'profile':profile, 'posts':posts}
     return render(request, 'users/about.html', cxt)
@@ -53,7 +52,7 @@ def about(request,pk):
 def dashboard(request):
     user = request.user
     if request.user.is_staff:
-        profile = WriterProfile.objects.get(user=user)
+        profile = Profile.objects.get(user=user)
         posts = Post.objects.filter(author=user)
     else:
         return redirect('401')
@@ -63,7 +62,7 @@ def dashboard(request):
 
 @login_required(login_url='login')
 def setting(request):
-    profile = WriterProfile.objects.get(user=request.user)
+    profile = Profile.objects.get(user=request.user)
     if request.method == 'POST':
         if request.FILES.get('avatar') == None:
             profile.avatar = profile.avatar
@@ -79,7 +78,10 @@ def setting(request):
             request.user.save()
             profile.save()
             messages.success(request, 'User Successfully Updated')
-            return redirect('dashboard')
+            if request.user.is_staff:
+                return redirect('dashboard')
+            else:
+                return redirect('index')
             
         elif request.FILES.get('avatar') != None:
             profile.avatar = request.FILES.get('avatar')
@@ -95,7 +97,10 @@ def setting(request):
             request.user.save()
             profile.save()
             messages.success(request, 'User Successfully Updated')
-            return redirect('dashboard')
+            if request.user.is_staff:
+                return redirect('dashboard')
+            else:
+                return redirect('index')
     cxt = {'profile':profile}
     return render(request, 'users/setting.html', cxt)
 
