@@ -65,6 +65,18 @@
                 {% include 'users/footer.html' %}
             </div>
         </div>
+
+        <link href="{% static 'ckeditor/ckeditor.css' %}" media="all" rel="stylesheet">
+        <script src="{% static 'ckeditor/ckeditor-init.js' %}" data-ckeditor-basepath="/static/ckeditor/ckeditor/" id="ckeditor-init-script"></script>
+        <script src="{% static 'ckeditor/ckeditor/ckeditor.js' %}"></script>
+        <script>
+            CKEDITOR.replace('content',{
+                height:1000, 'toolbar_Basic': [
+['Source', '-', 'Bold', 'Italic']
+],
+
+            }); 
+        </script>
  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
         <script src="{% static 'js/chart-area-demo.js' %}"></script>

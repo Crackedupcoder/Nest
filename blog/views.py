@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 def index(request):
     posts = Post.objects.all()
     cover_image = HomePageCoverImage.objects.all().first()
-    posts_per_page = 4
+    posts_per_page = 1
     paginator = Paginator(posts, posts_per_page)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)

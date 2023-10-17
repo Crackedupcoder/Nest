@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     #project's apps
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
+
+    #third party
+    'ckeditor'
 ]
 
 MIDDLEWARE = [
@@ -134,3 +137,12 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CKEDITOR_CONFIGS = {
+'default': {
+'skin': 'moono',
+# 'skin': 'office2013',
+'toolbar_Basic': [
+['Source', '-', 'Bold', 'Italic']
+],
+}}

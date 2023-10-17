@@ -1,46 +1,56 @@
 {% block content %}
 
 <ul class="list-inline text-center">
+    {% if profile.twitter %}
     <li class="list-inline-item">
-        <a href="{{profile.social_media1}}">
+        <a target="_blank" href="https:{{profile.twitter}}">
             <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
             </span>
         </a>
     </li>
+    {% endif %}
+    {% if profile.instagram %}
     <li class="list-inline-item">
-        <a href="#!">
+        <a target="_blank" href="https:{{profile.instagram}}">
             <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
             </span>
         </a>
     </li>
+    {% endif %}
+    {% if profile.facebook %}
     <li class="list-inline-item">
-        <a href="#!">
+        <a target="_blank" href="https:{{profile.facebook}}">
             <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
             </span>
         </a>
     </li>
+    {% endif %}
+    {% if profile.linkedIn %}
     <li class="list-inline-item">
-        <a href="#!">
+        <a target="_blank" href="https:{{profile.linkedIn}}">
             <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
             </span>
         </a>
     </li>
+    {% endif %}
+    {% if user.email %}
     <li class="list-inline-item">
-        <a href="#!">
-            <span class="fa-stack fa-lg">
+        <a href="mailto: {{user.email}}">
+            <span  class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-message fa-stack-1x fa-inverse"></i>
             </span>
         </a>
     </li>
+    {% endif %}
 </ul>
 
 {% endblock %}

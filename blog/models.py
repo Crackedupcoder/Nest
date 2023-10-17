@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 import uuid
+from ckeditor.fields import RichTextField
 
 
 class Category(models.Model):
@@ -16,7 +17,7 @@ class Post(models.Model):
     title = models.CharField(max_length=255, blank=True)
     description = models.CharField(max_length=255, blank=True)
     image = models.ImageField(upload_to='posts')
-    content = models.TextField()
+    content = RichTextField()
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
