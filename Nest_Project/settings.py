@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
 
     #third party
-    'ckeditor'
+    'ckeditor',
+    'taggit'
 ]
 
 MIDDLEWARE = [
@@ -143,6 +144,6 @@ CKEDITOR_CONFIGS = {
 'skin': 'moono',
 # 'skin': 'office2013',
 'toolbar_Basic': [
-['Source', '-', 'Bold', 'Italic']
+['Source', '-', 'Italic']
 ],
 }}

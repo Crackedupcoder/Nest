@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="container mb-4 post-preview">
+    {% if comment %}
+    <p class="post-meta">
+        Your Comment has been Added
+        <a href="{{post.get_absolute_url}}">Back to Post</a>
+    </p>
+    {% else %}
+    {% include 'blog/comment_form.html' %}
+    {% endif %}
+</div>
+
+
+{% endblock content %}

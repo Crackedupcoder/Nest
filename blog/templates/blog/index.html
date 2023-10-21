@@ -24,7 +24,7 @@
                     <!-- Post preview-->
                     {% for post in page_obj %}
                     <div class="post-preview">
-                        <a href="{% url 'post' post.id %}">
+                        <a href="{{post.get_absolute_url}}">
                             <h2 class="post-title">{{post.title}}</h2>
                             <h3 class="post-subtitle">{{post.description|truncatewords:20|linebreaks}}</h3>
                         </a>
@@ -39,6 +39,7 @@
                     {% endfor %}
             
                     <!-- Pager-->
+                    {% if paginatable %}
                     <div class="d-flex justify-content-end mb-4">
                        {% if page_obj.has_previous %}
                        {% if page_obj.previous_page_number != 1 %}
@@ -57,18 +58,8 @@
                         {% if page_obj.has_next %}
                         <a class="btn btn-primary btn-sm text-uppercase" href="?page={{page_obj.paginator.num_pages}}"><span>Last &raquo;</span></a>
                         {% endif %}
-
-                        <!-- {% if page_obj.has_previous %}
-                        <a class="btn btn-primary btn-sm text-uppercase" href="?page={{page_obj.previous_page_number}}"><span>&laquo; Previous</span></a>&nbsp;
-                        {% endif %}
-                        <span >
-                            <p class="post-meta">Page: {{page_obj.number}} of {{page_obj.paginator.num_pages }}</p>
-                        </span>
-                        {% if page_obj.has_next %}
-                        <a class="btn btn-primary btn-sm text-uppercase" href="?page={{page_obj.next_page_number}}"><span>&laquo; Next</span></a>&nbsp;
-                        {% endif %} -->
                     </div>
-                    <!-- <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a> -->
+                    {% endif %}
                 </div>
             </div>
         </div>
