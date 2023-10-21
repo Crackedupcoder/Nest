@@ -4,7 +4,7 @@ from .models import  Post, HomePageCoverImage, Comment
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    list_display = ['title','author','tags','slug','status','publish']
+    list_display = ['title','author','slug','status','publish']
     list_filter = ['status','created','author','publish']
     search_fields = ['title','body']
     prepopulated_fields = {'slug': ('title',)}

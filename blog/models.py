@@ -18,7 +18,6 @@ class Post(models.Model):
         DRAFT = 'DF', 'Draft'
         PUBLISHED = 'PB', 'Published'
 
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
     title = models.CharField(max_length=255, blank=True)
     slug = models.SlugField(max_length=255, unique_for_date='publish')
