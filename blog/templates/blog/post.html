@@ -34,10 +34,38 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         {{post.content|safe}}
+                        {% with comments.count as total_comments %}
+                        <h4 class="widget-title ">{{total_comments}} comment{{total_comments|pluralize}}</h4><br>
+                        {% endwith %}
+                        <div class="body">
+                            {% for comment in comments %}
+                            <div class="d-flex align-items-start">
+                                <div class="w-100">
+                                    <div class="d-flex align-items-start mt-3">
+                                        <a class="pe-2" href="#">
+                                            <img src="{{comment.user.profile.avatar.url}}" class="avatar-sm rounded-circle me-2" alt="Generic placeholder image">
+                                        </a>
+                                        <div class="w-100">
+                                            <h5 class="mt-0"><small>@</small>{{comment.user}} <small class="text-muted">{{comment.created|timesince}} ago</small></h5>
+                                           {{comment.body}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            {% empty %}
+                            <p>There are no Comments yet, Be the First to Comment</p>
+                            {% endfor %}                                       
+                        </div>
+                        {% include 'blog/comment_form.html' %}
                     </div>
+                    
                 </div>
+
             </div>
         </article>
+
+    
         <!-- Footer-->
         {% include 'footer.html' %}
 

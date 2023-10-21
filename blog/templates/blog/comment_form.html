@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<div class="contact-form article-comment">
+    <h4>Leave a Comment</h4>
+    <form id="contact-form" method="POST" action="{% url 'post-comment' post.id %}">
+        {% csrf_token %}
+        <div class="form-floating">
+            {{form}}
+            <br>
+
+            <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
+    </form>
+</div>
+
+{% endblock %}

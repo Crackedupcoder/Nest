@@ -43,7 +43,7 @@ def register(request):
 def about(request,pk):
     user= User.objects.get(username=pk)
     profile = Profile.objects.get(user=user)
-    posts = Post.objects.filter(author=user)
+    posts = user.blog_posts.all()
     cxt = {'user':user, 'profile':profile, 'posts':posts}
     return render(request, 'users/about.html', cxt)
 
@@ -135,16 +135,18 @@ def loginUser(request):
     if request.user.is_authenticated:
         return redirect('/')
     if request.method == 'POST':
-        username = request.POST.get('username')
+        email = request.POST.get('email')
         password = request.POST.get('password')
 
+        #trick to get round round changing the user model
         try:
-            user = User.objects.get(username=username)
+            user = User.objects.get(email=email)
         except:
-            messages.error(request, 'User DOES not exist')
+            messages.error(request, 'User with email DOES not exist')
             return redirect('login-user')
-           
-        user = authenticate(request, username=username, password=password)
+
+
+        user = authenticate(request, username=user.username, password=password)
 
         if user != None:
             login(request, user)
