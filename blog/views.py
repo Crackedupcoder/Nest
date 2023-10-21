@@ -5,21 +5,26 @@ from django.core.paginator import Paginator
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.http import require_POST
+from taggit.models import Tag
+from django.db.models import Count
 
 
-def index(request):
+def index(request, tag_slug=None):
     posts = Post.published.all()
     post_count = posts.count()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        posts = posts.filter(tags__in=[tag])
     if_paginatable = False
     cover_image = HomePageCoverImage.objects.all().first()
-    posts_per_page = 5
+    posts_per_page = 2
     if post_count > posts_per_page:
         if_paginatable = True
     paginator = Paginator(posts, posts_per_page)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
-    page_obj.adjusted_elided_pages = paginator.get_elided_page_range(page_number)
-    cxt = {'posts':posts, 'page_obj':page_obj, 'cover_image':cover_image, 'paginatable':if_paginatable}
+    cxt = {'posts':posts, 'page_obj':page_obj, 'cover_image':cover_image, 'paginatable':if_paginatable, 'tag':tag}
     return render(request,'blog/index.html', cxt)
 
 def post(request, year,month,day,post):
@@ -31,7 +36,11 @@ def post(request, year,month,day,post):
                              status=Post.Status.PUBLISHED)
     comments = post.comments.filter(active=True)
     form = CommentForm()
-    cxt = {'post':post, 'form':form, 'comments':comments}
+    post_tags_ids = post.tags.values_list('id', flat=True)
+    similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(id=post.id)
+    similar_posts = similar_posts.annotate(same_tags=Count('tags'))\
+                                            .order_by('-same_tags','-publish')[:4]
+    cxt = {'post':post, 'form':form, 'comments':comments, 'similar_posts':similar_posts}
     return render(request, 'blog/post.html',cxt)
 
 
