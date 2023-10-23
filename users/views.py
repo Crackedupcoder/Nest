@@ -5,6 +5,8 @@ from blog.models import Post
 from django.contrib import messages
 from django.contrib.auth import login,logout,authenticate
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth.forms import PasswordChangeForm
 
 
 
@@ -166,4 +168,22 @@ def unauthorised(request):
 
 def not_found(request):
     return render(request, '404.html')
+
+
+@login_required(login_url='login-user')
+def changePassword(request):
+    if request.method == 'POST':
+        form = PasswordChangeForm(request.user, request.POST)
+        if form.is_valid():
+            user = form.save()
+            update_session_auth_hash(request, user)  # Important!
+            messages.success(request, "Password Successfully Updated")
+            return redirect('about', pk=request.user)
+        else:
+            messages.warning(request, "Current Password Incorrect or Passwords Didn't Match")
+            return redirect('password-change')
+       
+    else:
+        form = PasswordChangeForm(request.user) 
+    return render(request, 'users/password_change.html', {'form':form})
 

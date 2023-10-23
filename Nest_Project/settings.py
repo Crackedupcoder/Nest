@@ -45,10 +45,12 @@ INSTALLED_APPS = [
 
     #third party
     'ckeditor',
-    'taggit'
+    'taggit',
+    'debug_toolbar'
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -147,3 +149,16 @@ CKEDITOR_CONFIGS = {
 ['Source', '-', 'Italic']
 ],
 }}
+
+
+INTERNAL_IPS = [
+ '127.0.0.1',
+] 
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'quest.users.tech@gmail.com'
+EMAIL_HOST_PASSWORD = 'ynee msmy tjgn xdjf'
