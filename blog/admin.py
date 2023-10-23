@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import  Post, HomePageCoverImage, Comment
+from .models import  Post, HomePageCoverImage, Comment, AboutTeam, ScholarshipPageHomePage
 
 
 @admin.register(Post)
@@ -20,7 +20,8 @@ class CommentAdmin(admin.ModelAdmin):
     list_filter = ['active', 'created', 'updated']
     search_fields = ['user', 'post', 'body']
 
-
+admin.site.register(AboutTeam)
 admin.site.register(HomePageCoverImage)
+admin.site.register(ScholarshipPageHomePage)
 
 

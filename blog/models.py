@@ -68,10 +68,27 @@ class Comment(models.Model):
         return f"Comment by {self.user} on {self.post}"
 
 
-    
+
+
+class AboutTeam(models.Model):
+    body = RichTextField()
+    cover_image = models.ImageField(upload_to='covers', default='about-bg.jpg')
+
+    def __str__(self):
+        return self.body[:50]
+
+
+
 
 class HomePageCoverImage(models.Model):
     image = models.ImageField(upload_to='covers')
+
+    def __str__(self):
+        return self.image.url
+
+
+class ScholarshipPageHomePage(models.Model):
+    image =models.ImageField(upload_to='covers')
 
     def __str__(self):
         return self.image.url
