@@ -1,13 +1,11 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth.models import User
 from .models import Profile
-from blog.models import Post
 from django.contrib import messages
 from django.contrib.auth import login,logout,authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import PasswordChangeForm
-
 
 
 
@@ -40,8 +38,6 @@ def register(request):
 
 
 
-
-
 def about(request,pk):
     user= User.objects.get(username=pk)
     profile = Profile.objects.get(user=user)
@@ -50,19 +46,8 @@ def about(request,pk):
     return render(request, 'users/about.html', cxt)
 
 
-@login_required(login_url='login-writer')
-def dashboard(request):
-    user = request.user
-    if request.user.is_staff:
-        profile = Profile.objects.get(user=user)
-        posts = Post.objects.filter(author=user)
-    else:
-        return redirect('401')
-    cxt = {'profile':profile,'posts':posts}
-    return render(request, 'users/index.html',cxt)
 
-
-@login_required(login_url='login')
+@login_required(login_url='login-user')
 def setting(request):
     profile = Profile.objects.get(user=request.user)
     if request.method == 'POST':
@@ -81,7 +66,7 @@ def setting(request):
             profile.save()
             messages.success(request, 'User Successfully Updated')
             if request.user.is_staff:
-                return redirect('dashboard')
+                return redirect('about', pk=request.user)
             else:
                 return redirect('index')
             
@@ -100,37 +85,12 @@ def setting(request):
             profile.save()
             messages.success(request, 'User Successfully Updated')
             if request.user.is_staff:
-                return redirect('dashboard')
+                return redirect('about', pk=request.user)
             else:
                 return redirect('index')
     cxt = {'profile':profile}
     return render(request, 'users/setting.html', cxt)
 
-
-def loginWriter(request):
-    if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-
-        try:
-            user = User.objects.get(username=username)
-        except:
-            messages.error(request, "User Does not Exist")
-            return redirect('login-writer')
-        
-        user = authenticate(request, username=username, password=password)
-
-        if user != None and user.is_staff:
-            login(request, user)
-            return redirect('dashboard')
-        elif user!= None and user != user.is_staff:
-            messages.warning(request, "Please enter the correct username and password for a Writter account. Note that both fields may be case-sensitive.")
-            return redirect('login-writer')
-        else:
-            messages.error(request, "Username or Password Incorrect")
-            return redirect('login-writer')
-    
-    return render(request, 'users/login.html')
 
 
 def loginUser(request):
@@ -158,16 +118,12 @@ def loginUser(request):
             return redirect('login-user')
     return render(request, 'users/login_user.html')
 
+
+
 def logoutView(request):
     logout(request)
     return redirect('index')
 
-
-def unauthorised(request):
-    return render(request, '401.html')
-
-def not_found(request):
-    return render(request, '404.html')
 
 
 @login_required(login_url='login-user')
@@ -180,10 +136,22 @@ def changePassword(request):
             messages.success(request, "Password Successfully Updated")
             return redirect('about', pk=request.user)
         else:
-            messages.warning(request, "Current Password Incorrect or Passwords Didn't Match")
+            messages.error(request, "Current Password Incorrect or Passwords Didn't Match")
             return redirect('password-change')
        
     else:
         form = PasswordChangeForm(request.user) 
     return render(request, 'users/password_change.html', {'form':form})
+
+
+
+def unauthorised(request):
+    return render(request, '401.html')
+
+
+def not_found(request):
+    return render(request, '404.html')
+
+
+
 

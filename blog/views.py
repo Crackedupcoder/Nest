@@ -1,5 +1,5 @@
 from django.shortcuts import render,redirect, get_object_or_404
-from .models import Post,HomePageCoverImage,AboutTeam, ScholarshipPageHomePage
+from .models import Post,HomePageCoverImage, ScholarshipPageHomePage
 from users.models import TeamMember
 from .forms import CommentForm
 from django.core.paginator import Paginator
@@ -51,74 +51,20 @@ def post(request, year,month,day,post):
 
 
 def contact(request):
-    first_post = Post.objects.all().first()
     sent = False
     if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')
         message = request.POST.get('message')
-    cxt = {'first_post':first_post}
-    return render(request, 'contact.html', cxt)
 
-
-
-@login_required(login_url='login-writer')
-def createPost(request):
-    if request.user.is_staff:
-        if request.method == 'POST':
-            try:
-                category_name = request.POST.get('category')
- 
-
-                Post.objects.create(
-                    author = request.user,
-                    title = request.POST.get('title'),
-      
-                    image = request.FILES.get('image'),
-                    description = request.POST.get('description'),
-                    content = request.POST.get('content')
-                )
-                messages.success(request, "Post Succesfully Created")
-                return redirect('dashboard')
-            except:
-                messages.error(request, "An error occured")
-                return redirect('post-new')
-        else:
-            return render(request, 'blog/post_form.html')
+        subject = f"Message from {name} with email {email}"
+        message = f"{message}"
+        send_mail(subject, message, 'quest.tech@gmail.com', ['quest.tech@gmail.com'] , fail_silently=False)
+        sent = True
+    
     else:
-        return redirect('401')
-
-
-@login_required(login_url='login-writer')
-def updatePost(request, pk):
-    post = Post.objects.get(id=pk)
-    if request.user != post.author:
-        return redirect('401')
-    elif post.author == request.user and request.user.is_staff:
-        if request.method == 'POST':
-            if request.FILES.get('image') == None:
-                post.title = request.POST.get('title')
-                post.image = post.image
-                category_name = request.POST.get('category')
- 
-                post.description = request.POST.get('description')
-  
-                post.content = request.POST.get('content')
-                post.save()
-                return redirect('post',pk=post.id)
-            else:
-                post.title = request.POST.get('title')
-                post.image = request.FILES.get('image')
-                category_name = request.POST.get('category')
-
- 
-                post.description = request.POST.get('description')
-                post.content = request.POST.get('content')
-                post.save()
-            return redirect('post',pk=post.id)
-
-    cxt = {'post':post}
-    return render(request, 'blog/post_form.html', cxt)
+        cxt = {'sent':sent}
+        return render(request, 'contact.html', cxt)   
 
 
 

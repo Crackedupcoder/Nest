@@ -8,8 +8,6 @@ urlpatterns = [
     path('scholarship/', views.scholarship, name='scholarship'),
     path('contact/', views.contact, name='contact'),
     path('about/', views.teamAbout, name='about-team'),
-    path('post-new/', views.createPost, name='post-new'),
-    path('post/<str:pk>/update/', views.updatePost, name='post-update'),
     path('post/<str:pk>/comment/', views.post_comment, name='post-comment'),
     
 ]
