@@ -97,5 +97,5 @@ def scholarship(request):
     posts = Post.published.all()
     tag = get_object_or_404(Tag, slug=tag_slug)
     posts = posts.filter(tags__in=[tag])
-    cover_image = ScholarshipPageHomePage.objects.get(id=1)
+    cover_image = ScholarshipPageHomePage.objects.all().first()
     return render(request, 'blog/scholarship.html', {'posts':posts, 'cover_image':cover_image})

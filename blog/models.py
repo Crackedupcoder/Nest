@@ -1,6 +1,5 @@
 from django.db import models
 from django.contrib.auth.models import User
-import uuid
 from ckeditor.fields import RichTextField
 from django.db.models.query import QuerySet
 from django.utils import timezone
@@ -82,6 +81,10 @@ class AboutTeam(models.Model):
 
 class HomePageCoverImage(models.Model):
     image = models.ImageField(upload_to='covers')
+    created = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created']
 
     def __str__(self):
         return self.image.url
@@ -89,6 +92,10 @@ class HomePageCoverImage(models.Model):
 
 class ScholarshipPageHomePage(models.Model):
     image =models.ImageField(upload_to='covers')
+    created = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created']
 
     def __str__(self):
         return self.image.url
