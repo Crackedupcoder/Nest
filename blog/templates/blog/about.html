@@ -203,20 +203,25 @@
                   <div class="item-wrapper">
                       <div class="img-wrap">
                           <div class="item-img">
-                            <img class="avatar-sm" src="{{member.image.url}}">
+                            <img  style="border-radius: 50%;" src="{{member.image.url}}">
                               <div class="img-overlay"></div>
                           </div>
                           <div class="item-content">
                               <div class="links-container">
                                   <p class="link-text mbr-fonts-style mb-0 display-7">
+                                     {% if member.facebook %}
                                       <a class="text-black" target="_blank" href="https:{{member.facebook}}">FACEBOOK</a>
-  
+                                    {% endif %}
+                                    {% if member.twitter %}
                                       <a class="text-black" target="_blank" href="https:{{member.twitter}}">TWITTER</a>
-  
+                                    {% endif %}
+                                    {% if member.linkedIn %}
                                       <a class="text-black" target="_blank" href="https:{{member.linkedIn}}">LINKEDIN</a>
-
+                                    {% endif %}
+                                    {% if member.instagram %}
                                       <a class="text-black" target="_blank" href="https:{{member.instagram}}">INSTAGRAM</a>
-                                  </p>
+                                    {% endif %}
+                                    </p>
                               </div>
                           </div>
                       </div>
