@@ -12,4 +12,3 @@ class ProfileAdmin(admin.ModelAdmin):
 class TeamMemberAdmin(admin.ModelAdmin):
     list_display = ['name', 'position']
 
-

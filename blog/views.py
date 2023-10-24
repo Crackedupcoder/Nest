@@ -59,7 +59,7 @@ def contact(request):
 
         subject = f"Message from {name} with email {email}"
         message = f"{message}"
-        send_mail(subject, message, 'quest.tech@gmail.com', ['quest.tech@gmail.com'] , fail_silently=False)
+        send_mail(subject, message, 'quest.users.tech@gmail.com', ['ibrahimabduldamad911@gmail.com'] , fail_silently=False)
         sent = True
     
     else:
