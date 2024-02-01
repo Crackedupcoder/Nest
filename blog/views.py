@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect, get_object_or_404
 from .models import Post,HomePageCoverImage, ScholarshipPageHomePage
 from users.models import TeamMember
-from .forms import CommentForm
+from .forms import CommentForm, SearchForm
 from django.core.paginator import Paginator
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -9,6 +9,7 @@ from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
 from django.core.mail import send_mail
+from django.contrib.postgres.search import SearchVector,SearchQuery,SearchRank
 
 
 def index(request, tag_slug=None):
@@ -46,7 +47,6 @@ def post(request, year,month,day,post):
                                             .order_by('-same_tags','-publish')[:4]
     cxt = {'post':post, 'form':form, 'comments':comments, 'similar_posts':similar_posts}
     return render(request, 'blog/post.html',cxt)
-
 
 
 
@@ -97,5 +97,25 @@ def scholarship(request):
     posts = Post.published.all()
     tag = get_object_or_404(Tag, slug=tag_slug)
     posts = posts.filter(tags__in=[tag])
-    cover_image = ScholarshipPageHomePage.objects.get(id=1)
+    cover_image = ScholarshipPageHomePage.objects.all().first()
     return render(request, 'blog/scholarship.html', {'posts':posts, 'cover_image':cover_image})
+
+
+
+def search(request):
+    form = SearchForm
+    query = None
+    results = []
+
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            search_vector = SearchVector('title', weight='A') + SearchVector('content', weight='B')
+            search_query = SearchQuery(query)
+            results = Post.published.annotate(
+                            search=search_vector,
+                            rank=SearchRank(search_vector, search_query)
+            ).filter(rank__gte=0.3).order_by('-rank')
+    cxt = {'form':form, 'query':query,'results':results}
+    return render(request, 'blog/search.html', cxt)

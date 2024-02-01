@@ -1,0 +1,1934 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-21T08:56:00.502Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Flask Crash Course",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-21T08:57:11.143Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Bootsrap or Tailwind",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-21T08:58:09.712Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Fifa World Cup",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-21T08:59:39.061Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "b54ce1f1-8b6a-46af-a1d4-ae4073349f29",
+    "object_repr": "Abdul Samad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-21T09:30:39.760Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "/media/covers/post-bg_1l0XYjW.jpg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-21T09:27:09.856Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "SQL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-21T08:49:07.188Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-21T08:51:55.221Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "impAact community",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-21T08:55:16.359Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-21T08:56:34.125Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "/media/covers/post-bg_1l0XYjW.jpg",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-10-21T08:57:37.447Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "/media/covers/home-bg_21h8x1S.jpg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-10-21T09:10:37.533Z",
+    "user": 2,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-10-21T09:11:14.315Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-10-21T09:28:14.855Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-10-21T09:47:28.943Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-10-21T08:48:03.387Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-10-21T08:48:54.682Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-10-21T08:50:08.771Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-10-21T08:53:42.682Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-10-21T08:56:53.563Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-10-21T09:03:07.104Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-10-21T09:04:33.823Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jp",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-10-21T09:14:39.240Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "scholarship",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-10-21T09:26:46.374Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "impAact community",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-10-21T09:29:06.847Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Scholarship in Europe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-10-21T09:47:18.321Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "/media/covers/img6.jpg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-10-23T14:49:54.892Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Ibrahim Abdulsamad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-10-23T13:59:30.125Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Abdul Samad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-10-23T14:01:18.212Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-10-23T14:02:29.145Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "felix",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-10-23T14:04:24.455Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Felix Avajara",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-10-23T14:15:46.837Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Abdul Samad",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Twitter\", \"Instagram\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-10-24T10:06:14.748Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Adigun Samson Oluwatobi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-10-24T10:07:51.261Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Jonathan Ali Abel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-10-24T10:09:10.706Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Aisha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-10-24T10:12:39.247Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Xavier",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-10-24T10:15:42.995Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Aisha Llham Isa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-10-24T10:21:51.019Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Aisha Llham Isa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-10-24T10:22:35.874Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Aisha Llham Isa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-10-24T10:23:55.997Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Avajara Felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-10-24T10:27:36.972Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Avajara Felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-10-24T10:29:00.419Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Avajara Felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Twitter\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-10-24T10:34:59.305Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Avajara Felix",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Facebook\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-10-24T10:44:19.436Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "/media/covers/home-bg_21h8x1S.jpg",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-10-24T10:44:52.802Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "/media/covers/project-5.jpg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-10-24T09:55:45.239Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "/media/covers/bg_1.jpg",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-10-24T09:57:51.727Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Top 10 Greatest Footballers of all-time",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add home page cover image",
+    "content_type": 7,
+    "codename": "add_homepagecoverimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change home page cover image",
+    "content_type": 7,
+    "codename": "change_homepagecoverimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete home page cover image",
+    "content_type": 7,
+    "codename": "delete_homepagecoverimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view home page cover image",
+    "content_type": 7,
+    "codename": "view_homepagecoverimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 8,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 8,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 8,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 8,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 9,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 9,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 9,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 9,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 10,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 10,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 10,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 10,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 11,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 11,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 11,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 11,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 12,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 12,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 12,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 12,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add about team",
+    "content_type": 13,
+    "codename": "add_aboutteam"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change about team",
+    "content_type": 13,
+    "codename": "change_aboutteam"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete about team",
+    "content_type": 13,
+    "codename": "delete_aboutteam"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view about team",
+    "content_type": 13,
+    "codename": "view_aboutteam"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add scholarship page home page",
+    "content_type": 14,
+    "codename": "add_scholarshippagehomepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change scholarship page home page",
+    "content_type": 14,
+    "codename": "change_scholarshippagehomepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete scholarship page home page",
+    "content_type": 14,
+    "codename": "delete_scholarshippagehomepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view scholarship page home page",
+    "content_type": 14,
+    "codename": "view_scholarshippagehomepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add team member",
+    "content_type": 15,
+    "codename": "add_teammember"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change team member",
+    "content_type": 15,
+    "codename": "change_teammember"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete team member",
+    "content_type": 15,
+    "codename": "delete_teammember"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view team member",
+    "content_type": 15,
+    "codename": "view_teammember"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$5Pbh91P85rTL7CrCyH9Gwx$LZwiWLwMYcyFquNLYpA3HgDoFLzrQ0l9ej3AR6COsD0=",
+    "last_login": "2023-10-24T09:58:23.837Z",
+    "is_superuser": true,
+    "username": "samad",
+    "first_name": "",
+    "last_name": "",
+    "email": "ibrahimabduldamad911@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-21T08:53:57.254Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$4BEg8a69Tpm4qVbxmWhZE9$8JqhJ1s8FY1tbDDzQ7mCK3kZoUrN9fK+NzJLfgvpeik=",
+    "last_login": "2023-10-23T14:58:07.187Z",
+    "is_superuser": false,
+    "username": "felix",
+    "first_name": "",
+    "last_name": "",
+    "email": "felixoshome56@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-21T08:47:56Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$tCTKY2I09LD1jWWJrL3ESy$FUTK/pZdwPcLVawyQejDqSWAmilkmT7hnZo6W/9Gsyc=",
+    "last_login": "2023-10-21T08:54:53.647Z",
+    "is_superuser": false,
+    "username": "kunle",
+    "first_name": "",
+    "last_name": "",
+    "email": "kunle@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-21T08:54:52.511Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$a4IGN6sMnxeoRwcS2baebp$QOzCDrw3igQtQXCx1LCiNHyHvvLMq8tHW8mU0A2BxFk=",
+    "last_login": "2023-10-23T14:56:40.230Z",
+    "is_superuser": false,
+    "username": "alaba",
+    "first_name": "",
+    "last_name": "",
+    "email": "alaba@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-23T14:56:39.042Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "homepagecoverimage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "users",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "blog",
+    "model": "aboutteam"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "blog",
+    "model": "scholarshippagehomepage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "users",
+    "model": "teammember"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2oywv704k65bk4yl571tvc0ww9b3v1ng",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8hmJduu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpd4tID647SHestyap1XWZo9wVedAup5b4eT3cv4OCvXxrIKuQnAEk9D6ydXAG0FmNUY0mDuCQlcUMzMp70pkgsUUaIicPZMT7A-axOHg:1qu7kE:C_nzbASu2nof8qjc0FQeIdS-QdnF2n5OF258RPJgllE",
+    "expire_date": "2023-11-04T08:54:06.642Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hiwfqhfsx3bcgdn3o6tuqr6ktb4i1q8s",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8hmJduu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpd4tID647SHestyap1XWZo9wVedAup5b4eT3cv4OCvXxrIKuQnAEk9D6ydXAG0FmNUY0mDuCQlcUMzMp70pkgsUUaIicPZMT7A-axOHg:1qu7iO:3vC8rZ-hO8XxXpp5m3gLfkEES_WeYx6aTErCPRA7wE8",
+    "expire_date": "2023-11-04T08:52:12.754Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jjg1872zo63478iuhu4jhfmxvuo5nho2",
+  "fields": {
+    "session_data": ".eJxVjTsOwyAQRO9CHSEvXyll-pwBLSwbnEQgGbuycvdgyUXSznszs4uA21rC1vMSZhJXAeLym0VMr1wPQE-sjyZTq-syR3ko8qRd3hvl9-10_wYK9jLaSVGKHJ0jy9ZZiNlHPbEimrQBg5azhkE9KZcUcFZgNHr24Hi8kPh8AQL9OK0:1qvEB5:QoBmYaJUGCu2CwQtMz1BL5B6o7ab-3jTRMYwZFCC7Ec",
+    "expire_date": "2023-11-07T09:58:23.987Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k7hukq4wxddtw1itqri7osbhnmyrozzd",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8hmJduu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpd4tID647SHestyap1XWZo9wVedAup5b4eT3cv4OCvXxrIKuQnAEk9D6ydXAG0FmNUY0mDuCQlcUMzMp70pkgsUUaIicPZMT7A-axOHg:1qu8Ux:zvct0DGVGQ3yn4uMzwwjnXcdc0Y1tAQJwJqUaFXifI8",
+    "expire_date": "2023-11-04T09:42:23.240Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wscrugx1c810tj6yei99vi9xn7h603qh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSE8hmJduu83kGEYpGogKe3K-O_apAvd3nPOfYmA21rC1nkJcxIXocXpd4tID647SHestyap1XWZo9wVedAup5b4eT3cv4OCvXxrIKuQnAEk9D6ydXAG0FmNUY0mDuCQlcUMzMp70pkgsUUaIicPZMT7A-axOHg:1qu80Z:s0b9wEMoIFJklzU99_U4kpFsjxhkFtpH8PxWKq_9yvs",
+    "expire_date": "2023-11-04T09:10:59.509Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "title": "Flask Crash Course",
+    "slug": "flask-crash-course",
+    "description": "",
+    "image": "posts/20220923_180537_Kw5lsNZ.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T08:55:14Z",
+    "updated": "2023-10-21T08:56:00.447Z",
+    "created": "2023-10-21T08:56:00.447Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "author": 1,
+    "title": "Bootsrap or Tailwind",
+    "slug": "bootsrap-or-tailwind",
+    "description": "From django.contrib import messages",
+    "image": "posts/20221227_141803_1H7rn0M.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T08:56:30Z",
+    "updated": "2023-10-21T08:57:11.105Z",
+    "created": "2023-10-21T08:57:11.105Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "author": 1,
+    "title": "Fifa World Cup",
+    "slug": "fifa-world-cup",
+    "description": "youngin  wit an Addiction",
+    "image": "posts/20230120_093142_nVc0oZX.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T08:57:32Z",
+    "updated": "2023-10-21T08:58:09.663Z",
+    "created": "2023-10-21T08:58:09.663Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "author": 1,
+    "title": "SQL",
+    "slug": "sql",
+    "description": "",
+    "image": "posts/home-bg_SaQAf1e.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T09:26:13Z",
+    "updated": "2023-10-21T09:27:09.789Z",
+    "created": "2023-10-21T09:27:09.789Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "author": 2,
+    "title": "impAact community",
+    "slug": "impaact-community",
+    "description": "",
+    "image": "posts/img6.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T08:49:49Z",
+    "updated": "2023-10-21T09:26:46.344Z",
+    "created": "2023-10-21T08:51:55.183Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "title": "Scholarship in Europe",
+    "slug": "scholarship-in-europe",
+    "description": "",
+    "image": "posts/20230409_162204.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-21T09:27:43Z",
+    "updated": "2023-10-21T09:29:06.789Z",
+    "created": "2023-10-21T09:29:06.789Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "title": "Top 10 Greatest Footballers of all-time",
+    "slug": "top-10-greatest-footballers-of-all-time",
+    "description": "",
+    "image": "posts/image_1.jpg",
+    "content": "<p><br />\r\nWhat is Lorem Ipsum?<br />\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "publish": "2023-10-24T09:56:19Z",
+    "updated": "2023-10-24T09:57:51.320Z",
+    "created": "2023-10-24T09:57:51.320Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "post": 3,
+    "body": "first to comment",
+    "created": "2023-10-21T09:01:37.915Z",
+    "updated": "2023-10-21T09:01:37.915Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "post": 3,
+    "body": "commet",
+    "created": "2023-10-21T09:31:10.894Z",
+    "updated": "2023-10-21T09:31:10.894Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "post": 3,
+    "body": "another comment",
+    "created": "2023-10-21T08:52:55.234Z",
+    "updated": "2023-10-21T08:52:55.235Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "post": 6,
+    "body": "i am new",
+    "created": "2023-10-21T08:55:28.414Z",
+    "updated": "2023-10-21T08:55:28.414Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "user": 4,
+    "post": 2,
+    "body": "no comment",
+    "created": "2023-10-23T14:39:23.174Z",
+    "updated": "2023-10-23T14:39:23.174Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "post": 6,
+    "body": "Another comment",
+    "created": "2023-10-24T10:46:10.420Z",
+    "updated": "2023-10-24T10:46:10.420Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.aboutteam",
+  "pk": 1,
+  "fields": {
+    "body": "<p>&nbsp;</p>\r\n\r\n<p><img alt=\"\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHQAywMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYHAf/EAEAQAAIBAwMCAwUFBgUCBwEAAAECAwAEEQUSITFBBlFhExQicZEHMoGhsRUjQlLR8DNDYsHhcqIkNIKTs8LxFv/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAE/8QAIBEAAgIDAQEAAwEAAAAAAAAAAAECEQMSITFBIjJRE//aAAwDAQACEQMRAD8AysSrIg3LwehHepRaBj8KE0yUjargjLk5YfxYHcefrUNvq4hn9nMoaMnGDxTpnNKJX1i2mgjVggWIOCWLcg5GOOtEJhtutPiCYSdCyk9OMf1qj4rWNpop4Z7cxgJiJJ8uM99vH1pTo7XliqSSMVTjnO3djH3eR2/Lig2Mo8o0C6cSMjn1r33Bh/8AlGIrMjG51JHcg5NSG0Pln5UNhNUBBZHyFQXvsbaJlkljSRkO1S4yflWiFn5j60B8VaG8iC5Q26CNeTIx3n5edGzKKZYFsO3PyqRbTPar+j6a8VmoLrLkk7kJINFEsHAyEPTyobGcAEtiT/CamjsCSBtNWdReQ3MOm2hUXM/mcY8h6E1bGpQWsItNRtTBc2qrHvWTO8AY59flRtg1K6aQxXLFU9GPNOXS8DP+1Syais8LjS4TLKFJYn+EeYHejPhy4S6tY45pB7zyXjI6+RH4Y6UrbQ0YJ8Aq6d6fWp49MPkB+FacWKlienc1ZijsI5I4pGHtX+6p6/8AFLuFYXYBsNCSZwHkCr3GOTRdPDtqjZWRsUajhRBhVAHypxRR3qbm2dCxRS6B/wBixq+VkLDyarEemqpBLH5DiiIg5Dc08KRzig5MZRigZqMjadp89zHA07xIWWFT8TnsBWS8D+M11nVLqzuLcQNJKzRjPOf5fy6+dajxhJaDQLk39vcXEOB+6tYi7uc8AAfnXLvs8v8ASoPETrdWUkUhuGW2UjcYzu4GAO35UY9i2aV2jtCxnyrE/aX4ji0mxW1juxFde0jkZTEzfBuBznGO2fPgUW8VeNNM8MQEXUizXRQslujjc3QAemc9/KuHeNvH+r+JUaC49hb2hYFYYUy2B2Lnk/lRhjcu/ASyJcOg+OftMs4NGFn4du1ub66i+O5j+7bKRyef4/Idup7Z4mZGYklnyevfNOc8DHTH1pn0rphFR8OecrfS/cXx9+h2MQojzgcDkAmmsxkwxOSQM0KiJMy5JPFXoGySozkHnNFBa4V7iNxMW3KRu4GaKxubW6heEkMVz7RSM/3zQu4gYTBhg7mwBii1rp8rT26tMiOysy574weT+P5UJBXhtdN8RsJIYZk3hgF9svDfMitppUayqz5EkbZwQP7xz+lcxe1kifkH1INXodRuYGAgmkjPRtpxn51NxtcBaT6dL1CwjiCmFC0bHBA5I8q5/wCNrX297CiSy70jLez+IqSPI/h/U0W0vX7hCsdxLI24hQ2ecnpWc8bX13HqkdxLdo0TRbI4yMEefb/eglXBuem00WG50bS5I7uKH2okLbHbjb+GOcY61Xu9ahtJTsmaQk7iq87fQ9s0Cm12TVbMSMx5OD1x+FDiepZqZR/pOc6ZZvdUm/aUupQkxyliY8HlOMKR6igCyzxuzrLIhblirEFvU1flPtOnAFVnAbhAfIt51VErGWlzc29zHPbSukqHKsp6f1rqWjana39v7WeFbe9jC+02A8MeAVPl5jsetc80i2LXA2pu2gnHr2oqZFhmLzSFVyBkct9P9ulTyd4Uxuumz1zxQLC3FvZs0l8SAwcf4QB5z6n/AJrOSahr15cNMjMntGLqIgPhGeAO+B0FO02S2vLkvHNJuLFsLwR3zgjmjc7xIo9kyqxHLDg/TtSXryimrn1sOWGv3S2kfvoRrlxlx0Ef0/DjzzWmsp0urcTIBg9fQ9xXOreQfdTrRPSNWNkzFpAIlYFlJwrE8Yyf7zU2u8Kxlw281xFb7BK23e4Rc9zXP4PtY0c3V0lw7xpFJIqnb94BgBgg/wDUaw/2oeL7nVrltMgkVbOKVJg0TnJb2ZG3PcfF9a54F2nKjHpVI4ufkJLJ3h0/xj9qkmo2zWejwNb27jEs8n32HkB2H51gbHU7qOWW7guZopfaFxIkhEnXrnzoTOSsePOlbnZGSxOfLPWqKCXgNr9LM08lxK0s8jSSyHJdzkn5mqcqhphluT2p3JO4dBUMo5DYzmnYiXS7OdpAPb1qm0x3GpLiUMBgdqpk81l4FofC5Eq8/WriEqynPBPbPFD1OG5NXiQ6xtGM8Y45/KlY1Fm4ZPaQq+WG4dO9FTHC8tvHgBVVgAD908d6EXNvOwicQseAcAf2aI7X96gKMrKqkqAMLtwP79KFoFOgzY3wkv5YGZmVIlUM5ySRnmnXlxHE25MlvTpQ7QYZbvW7hYpF3MmBufAzngZr3VTLaXTW1zEyTKSHQ9V5P1+YrRqxZp1ZHqGpXE00KqNkYkBBU857c0Z1eXTbyBZLxlku0hYDrwcZ+tZuWQEwkj/MAx3qW5J3yM46g+mRijXTJ0jZrZQiACHasZ5UA9utVpLQZyDn5VmoXcyqC8nsy3RSQR/fFGEsNkyyRXEr2eQGkiPMY9Qen41vPojVk0sJ2jAFMWDjpRy0sROkb+09or8BgAw4Pfy+VX00VDn2qGMjkBcsT647UNkgf5tgbTbeeNy0asN8bBSp61JHp8rMdyMCD/EtFpxZ6dhmMsgTO2IR5OfU547fWp7zxLamz/8AEaddxzjaVcxjGNwB5HXj+lLs74h1BV1kWnaZI4ATjB+8OKtS20NjC811c5jXsxyRzWZvtf1Bk3WXtY12YLMPunOe3yxQXUtWvL2COG6lYoq4YKMFs885/wBh2rathTivDU3XibTrVBJDcRtgHgAZ64rC6/rEuqzOcbICVIjPoCB+p+tQTRM7AqmxT0BPNV3TYrb87uwp4wjEzk2Qk8BR0qIOCWwQcHzpzDjO4fIf1piqY4mJ79BzTAK1xvd+M4pykKOv41IAxLYBwF5qawsffc4urSAbsZndhnnttU1rClZBbgyuyDHI446/Sq8mShPYYqb2csF26NtJQlfhOQeccHvmnR20ku0OjKh7k4zS2NRVmO4g9OOg7VFip7hBGVGMcefWos+tEw3HHNWbW4935xn0r1FhCY3Bz34PFRSogA2tz5An+lBqwplmHUHiuva5b5ZNEbW+3LuVgmSCSBnkA80GhVWOJD8JqwIrbcAbpgp64QnFK4IOzQY028giuDNG8i4YsRs4Hr6/LrRaa7juwvvTw3AC7vZ7TvUHoFYHIBz06VlY2jQ/+ZI/9J/pVpJJSG9ldt7PrjHI9aVwrqYVLlEmpw2bW63Fm08bFubWZCWX5PjBHzGfSrI1G1eIGXJIQ5VABnoMHsM+lPgMZgVbi7uc8F9tujg/VqZdL4dMbFZ73IxuWO3U/q/+9Hb4LqjQWVvYalc28FrcxRSyYRUmjYc89wMeXPrW0sfB2oacjXNxLaRooALLzwTjHT5VzCKLTCtuvvWpsSQBthiDdev3zRjVoJtha8n12SEQiJQzRbFjXou0etbaTBrFdOoaZ4Umsc7JLdMn4tsecjy6USOkzfEpniCMMdD/AH+NYTS/EWrW0dohvbgQwRNGEkeP8M4TOeBz2xRg+LLhel1JIfLdjmk1k3Yd4RVBKPw08UcIjltv3RZhuBYcnOSPOrV3p0ssO13tCRj4jHnHyGKBJr91cyxk3DbWB+AHt86vHUomXaJWYnjO8/rQcZfQxnH4C73TgCzG+tQcdHUbQe/GKzs+npbymYahZbueQmT+laiSCS4Uey1G6iwuATMxGc/PyzQbV11Kyi9p75dSovXErHH98fWrQa8OfJt6Z+WCMjHvUB88Qtz+VUbiC1jUmSaA9uIX6/gKnutVnlBV7i+APVo3Un/uoJcRae0jNJPq+8sPi2RH4scHqKaXBca262SXtnBDF7QzIPLELdfKhULW85dbi8Frs5BaJnL+g29D8+PWrccdsjnE+og92eBD+sn6U6BtHQ5W4vBIO72yZ/8AlpNmdCgkMtV06X98kVxhRwLlgVc56nAGPl+tQXk8Mtx+9kjLA9EXy7eWOKnmWF1O2/1BUyPvWqAf9snFDXi0/ec3U5OeSYcf/aglY/g9WhimMsjBnJyMdFqvcXjTy7hu2g9Ca8uI7Vce7yM//UuKg4P3jt/Cm1QNj2WT2hzjio6kx2HNMKc0wLH7ie9JELtxUeecVNzHtxwTmsA9SFmkKYP0q7bWUjdABgjr54P6YyarvLKqx4dh24NEoW3SqxHJUg58uOKDTBskh+l2UMt4kSgMQ+GBYFvp254ovd6Z7kRHeKiNnJhUBpMds8gD0Hf5c0J0eeWDWJXicwyFcBk4b8D1B9etaG1sLu+l3Q200+WwWALZPfJpdO9M8nOGa1iSFY/YWdgsERbJkclpnPq3QD0AptrZGeCQqh3IuT9M81p/Fmg3VnBp7TRxL7a4VUQPl8+WBWy1Sz8P6Bo8lrqF9FDqM1i0iJIpBY7SBjjrntWckvAVJoy0FrDapGotlEiDO/bzn5/OpXuJSv8AprV6jpdjf6eLzR5RPGOrocqexH1rLT2stu5V1Zc8gnjPypoysjNNPpAZ2dWGOcVH7w6Y3AjPQ+dNuBgFkzx1xVNrkOGGe3APXNUJhvTphJIwMiqSp5bpVg3Jtxl2IHmtZ20u/YSq5yR/EM4yK0+k2s16feLdcQ5GzK8E5GQB5en0qcudKwVqkWbG6e4B9iWwO7jA+tWXFyi7ZiZB/Lt+EVVnabT7vbMGjXJKFo85Hp29Ku+9Q3O0e2UeTMf1qbu7RSOvj9Bd7Yw3pwYo1fzUY9ayerae1rKysA0eQA+OCfL58H6V0P3Rh99cEjKkdD/WpF8KDWYNswdFZwoZSB8QB5PB4xn60Vkr0Dx7eHI54lZcYFU7dEgeb2kEEwbK4lUnHqMEYPrWu8Z+HZ/Dly0cgka2BCx3D4wzFc7c+fBrFxS53Z5yc1VU+irZFsG0hcpCswjK/wCYwYq2eo8xXq2TXMp91h95YthmhRj1x6cdfKqcjrv/AApiyOmdkjrnrsYjNBw/hRT/AKOliT2zwsMPG2w8eRxVeeJo2AzkHvUYGH4yMeVTFmUAMcqOx5oase0QdOKaTT5Dk9B+FMpgC/iqeJGmZEQFmY4AqLGH/CrVnI9vKs0TFXB4I7VkgN8Jb2CW2aJZRsJ861zeFLyFNPuHeMxXNtLPlT91E2knH48VjdQF7LKJ7sSMDgK7jgjtithePfaZpen20GpSRSzJKryTP8MYYR5A8hhaWTfwVRXLCHhzwnJD4piuZolm072K3CyN9yRWB2jHmT27Y+VdUsPZLCcYRF429AB2rNWGpRw2cMUTK8SRqqHr8IHGDTzqa8gHAPbNTkpS9E/2jHwpfaLptxqOoaLJZJAViuwm4nDZbt6j4a8+0rQ5NZ1S1u1hT3e2tm9pNvz0527D0/PNWZNRRtu4j4WDAZ4yDxWI8d6/ML+Bba5k+FP3kQY7cZH4c4oqDGhn24dVtrGwjso9NtE92tEOdq/xGmPYLM495CskZ+EY4xWV8M+IptV0z3m6RI5DIw2x5wB2oyNS/wBVDWQjzJOmA7+wt7DxGfeF22MrFsAE5QghgMd+SPoaGDwz75NLLp0U8luD+7aYbSB5E5wfyrUXklvew+zmHqD3BqzDeqkcUZb4I1CD0Ap7ZPeJik8PxWk4Ose0ROqxr/m+mR0H51uPD/vl5GiQpHbWaDbuC4JA6KBnpXtw0V5A0b4kjPYHketWLC6hs7aOJGxHHwidTj50kraK4pJMKX+mW9/Ze7XQBTgqwHK48v771nJvB8bXuy3kdElYmPjIUZ6fhREaoFbIbgHuaIW+vIF2n9aX80uFdsWR9Ldt4ftobSO2Luwi+43cf1/pRWBIoY1ijAAUYAofDqUci5GRSbUVHnUXb9OlOC8JNa0iw1uCG31OFJoYphMEdcgsAR+jGuR6P9lDz32oJd3OyCOeSOAqD0DDBPXsfyrqn7TUnAbFM9/C5IwM8nFNGUorgsnCXWcH+0bwTL4Vu4mhaWezmDFZivCEH7p8uo+dZh4ZY0BljdA2cblxmu2fahFJqugqqe8yLDJueGD/ADB/q5AwOvOayXhrxfaamYdF8R6cksDzPskJ/idkwCMea9fWuiM3XSMoxfhzjj2tKY/CB3NbTxd4M/Z901zo5M1oV3eyPLp5/Md6xM3DgHg+tUTtWL9GsMAUypkG7rTGiOTWDZZaEvOuwdqM2NtawYaYCQ+R6ChoYLjA6VIJjTHNOTa4P8RTe8TLJ7wCAABFu+78h2qCO7R7u298eaeBOqsx446D04qreqn+JzuJ5pjOVaMjrjpjpSl4r8UdBi1YFAVbC486aurq7lVlBZeo8qykd1OCu4q6gc5yDUq3gHRhTHHLGzUnUCR941n9dvYBOpktVeQrxIe1Q++N5/nVO/lmlGE2lcd+tYOKLUrZrdL1RHtgYIxEv8o/4q+uon+Y1ilupYEUpt28ZU8fnUiasWHwqM98mtaBLDJu0bT9pH+Y09dTP81Yv9oTn7qxkekh/pUUSyIxli3xs33tkxw3zBHNBtBWCX03i6qR/EKf+1WxjIArEi8vFYblUr3x/eKck49oZEdlJPxLv4+nSjxivFNI2B1M/wAwprawYlLbicc4Az+VZZ7wr944+dMOoDpvB+Ro0iahK/Dfaf4qEXMiBkPkpB/OrsnjKzEbMbWYsoJCptJPp1rmyXTMCQQMedJrk4z7WH/3Uz9M1Nwgy6lmXiNPpv2gSXss2+1SJlbCocgqPXzPrxRX/wDrMrygDelc9a5CHcSBnv1z9K9W+3DKsD8qKxxGnkm/FRpfE3iGS5sCPepLUA5DRMQW9D51itEu/Z6tHK6iUtITl/M/xfOrF9d5tn3AMPI0K06cLPloxnOQR2rUl4Pj2cHZ0RtZkK8uTWG8RmJ76SSOGVXc7mcn4Se9WzdNjg0N1SWV4wMjYTzRfguG9uleL7uacaUK/ux8WaRHNZFW+j4yWBz2NOzXlKghZFW65ankZaHPcGlSrMt8LWTTWAJyevn3pUqJzxIjkO2CQQM5HFNguZHwGNKlSnT6hz/E3xc1FK5GAAOPxr2lRMKOVic5wfOpTdzqSN+fmBSpUDHgvZ2H3gPXFRyXEpAO85pUqxvpF7zOD/iv9aeLuboWB+ailSrIah6TuWGTmvZlyTy3XzNeUqwozbt6Ej8aljQjkO2T60qVEzZdt0G1lJLD1r028cQdkXBD4FKlWIf0rPKwdgMYFNvkHsVk53cd69pVh4fsh0CKIxjvTD1NKlRFl+zP/9k=\" style=\"height:131px; width:197px\" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"data:image/jpeg;base64,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\" style=\"height:131px; width:197px\" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\r\n\r\n<p><strong>John Java</strong></p>\r\n\r\n<p><strong>Team Leader&nbsp;</strong></p>\r\n\r\n<p>Why do we use it?<br />\r\nIt is a long established fact that a reader will b<em>e distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</em></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\nWhere does it come from?<br />\r\nContrary to popular belief, L<strong>orem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cice</strong>ro, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n\r\n<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>\r\n\r\n<p>Where can I get some?<br />\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>\r\n\r\n<p>5<br />\r\n&nbsp;&nbsp; &nbsp;paragraphs<br />\r\n&nbsp;&nbsp; &nbsp;words<br />\r\n&nbsp;&nbsp; &nbsp;bytes<br />\r\n&nbsp;&nbsp; &nbsp;lists<br />\r\n&nbsp;&nbsp; &nbsp;Start with &#39;Lorem<br />\r\nipsum dolor sit amet...&#39;</p>\r\n\r\n<p>Translations: Can you help translate this site into a foreign language ? Please email us with details if you can help.<br />\r\nThere is a set of mock banners available here in three colours and in a range of standard banner sizes:<br />\r\nBannersBannersBanners<br />\r\nDonate: If you use this site regularly and would like to help keep the site on the Internet, please consider donating a small sum to help pay for the hosting and bandwidth bill. There is no minimum donation, any sum is appreciated - click here to donate using PayPal. Thank you for your support.<br />\r\nDonate Bitcoin: 16UQLq1HZ3CNwhvgrarV6pMoA2CDjb4tyF<br />\r\nNodeJS Python Interface GTK Lipsum Rails .NET Groovy<br />\r\nThe standard Lorem Ipsum passage, used since the 1500s<br />\r\n&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;</p>\r\n\r\n<p>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;</p>\r\n\r\n<p>Section 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC<br />\r\n&quot;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&quot;</p>\r\n\r\n<p>1914 translation by H. Rackham<br />\r\n&quot;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&quot;</p>",
+    "cover_image": "about-bg.jpg"
+  }
+},
+{
+  "model": "blog.homepagecoverimage",
+  "pk": 3,
+  "fields": {
+    "image": "covers/project-5.jpg"
+  }
+},
+{
+  "model": "blog.scholarshippagehomepage",
+  "pk": 1,
+  "fields": {
+    "image": "covers/bg_1.jpg"
+  }
+},
+{
+  "model": "users.profile",
+  "pk": "00000000-0000-0000-0000-000000000002",
+  "fields": {
+    "user": 2,
+    "name": "Felix Avatar",
+    "cover_image": "about-bg.jpg",
+    "avatar": "avatar/img9_8qx1lbn.jpg",
+    "profession": "None",
+    "location": "None",
+    "twitter": "None",
+    "facebook": "None",
+    "linkedIn": "None",
+    "instagram": "None",
+    "bio": "                                                                                                                                                                                                                   ource c:/Users/SAMAD/Desktop/social_media2/env/Scripts/activate\r\n                            \r\n                            \r\n                            \r\n                            \r\n                            \r\n                            "
+  }
+},
+{
+  "model": "users.profile",
+  "pk": "00000000-0000-0000-0000-000000000003",
+  "fields": {
+    "user": 3,
+    "name": "Kunle Afolayan",
+    "cover_image": "about-bg.jpg",
+    "avatar": "avatar/img7.jpg",
+    "profession": null,
+    "location": null,
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null,
+    "bio": null
+  }
+},
+{
+  "model": "users.profile",
+  "pk": "00000000-0000-0000-0000-000000000004",
+  "fields": {
+    "user": 4,
+    "name": "Alaba David",
+    "cover_image": "about-bg.jpg",
+    "avatar": "avatar.svg",
+    "profession": null,
+    "location": null,
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null,
+    "bio": null
+  }
+},
+{
+  "model": "users.profile",
+  "pk": "b54ce1f1-8b6a-46af-a1d4-ae4073349f29",
+  "fields": {
+    "user": 1,
+    "name": "Abdul Samad",
+    "cover_image": "about-bg.jpg",
+    "avatar": "avatar/img2.jpg",
+    "profession": "None",
+    "location": "None",
+    "twitter": "None",
+    "facebook": "None",
+    "linkedIn": "None",
+    "instagram": "None",
+    "bio": "                                \r\n                            "
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 1,
+  "fields": {
+    "name": "Abdul Samad",
+    "image": "avatar/IMG_9525.jpeg",
+    "position": "Back-End Developer",
+    "twitter": "twitter.com/youngdaraey",
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": "instagram.com/youngdaraey"
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 2,
+  "fields": {
+    "name": "Avajara Felix",
+    "image": "avatar/img.jpg",
+    "position": "Front-End Developer",
+    "twitter": "twitter.com/felix_oshome",
+    "facebook": "facebook.com/avajara",
+    "linkedIn": null,
+    "instagram": null
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 3,
+  "fields": {
+    "name": "Adigun Samson Oluwatobi",
+    "image": "avatar/IMG-20231023-WA0240.jpg",
+    "position": "Event Manager",
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 4,
+  "fields": {
+    "name": "Jonathan Ali Abel",
+    "image": "avatar/IMG-20231023-WA0039.jpg",
+    "position": "Graphic Designer",
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 5,
+  "fields": {
+    "name": "Aisha Llham Isa",
+    "image": "avatar/IMG-20231023-WA0227_wLQPN39.jpg",
+    "position": "Program Manager",
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null
+  }
+},
+{
+  "model": "users.teammember",
+  "pk": 6,
+  "fields": {
+    "name": "Xavier",
+    "image": "avatar/IMG-20231023-WA0239.jpg",
+    "position": "Team Leader",
+    "twitter": null,
+    "facebook": null,
+    "linkedIn": null,
+    "instagram": null
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "node",
+    "slug": "node"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "javascript",
+    "slug": "javascript"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "bootsrap",
+    "slug": "bootsrap"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "sql",
+    "slug": "sql"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "database",
+    "slug": "database"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "impact",
+    "slug": "impact"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "community",
+    "slug": "community"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "blog",
+    "slug": "blog"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "scholarship",
+    "slug": "scholarship"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "football",
+    "slug": "football"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 8,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 8,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 8,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 8,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 5,
+    "content_type": 8,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 8,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 6,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 9,
+    "content_type": 8,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 9,
+    "content_type": 8,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 9,
+    "content_type": 8,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 10,
+    "content_type": 8,
+    "object_id": 7
+  }
+}
+]

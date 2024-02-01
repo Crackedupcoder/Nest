@@ -12,7 +12,7 @@
   <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <h2 class="nav-item" style="color: white !important;"> Impact Community</h2>
+                <a class="navbar-brand" href="{% url 'index' %}">Impact Community</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -23,9 +23,9 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'about-team'  %}">About</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'scholarship' %}">Scholarship</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'contact' %}">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'contact' %}"><i class="fab fa-search fa-stack-1x fa-inverse"></i></a></li>
+                        <li class="navbar-brand"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'search' %}"><i class="fab fa-search fa-stack-1x fa-inverse"></i></a></li>
                         {% if request.user.is_authenticated %}
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{request.user.profile.avatar.url}}" class="me-2 avatar-sm rounded-circle" ></a> 
+                        <li class="navbar-brand dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{request.user.profile.avatar.url}}" class="me-2 avatar-sm rounded-circle" ></a> 
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{% url 'setting' %}">Edit Profile</a></li>
                                 <li><a class="dropdown-item" href="{% url 'password-change' %}">Change Password</a></li>
@@ -34,7 +34,7 @@
                             </ul>
                         </li>
                         {% else %}
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="{% static 'assets/img/avatar.svg' %}" class="me-2 avatar-sm rounded-circle" ></a> 
+                        <li class="navbar-brand dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="{% static 'assets/img/avatar.svg' %}" class="me-2 avatar-sm rounded-circle" ></a> 
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{% url 'login-user' %}">Login</a></li>
                                 <li><hr class="dropdown-divider" /></li>
