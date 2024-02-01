@@ -10,11 +10,16 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+
 import os
 from pathlib import Path
+import environ
+
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -38,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.postgres',
 
     #project's apps
     'blog.apps.BlogConfig',
@@ -46,12 +52,14 @@ INSTALLED_APPS = [
     #third party
     'ckeditor',
     'taggit',
-    'debug_toolbar'
+    'debug_toolbar',
+    'storages',
 ]
 
 MIDDLEWARE = [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -86,14 +94,6 @@ WSGI_APPLICATION = 'Nest_Project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
- 'default': {
- 'ENGINE': 'django.db.backends.postgresql',
- 'NAME': 'nest',
- 'USER': 'nest',
- 'PASSWORD': 'Pass123@',
- }
-}
 
 
 # Password validation
@@ -158,9 +158,9 @@ INTERNAL_IPS = [
 ] 
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'quest.users.tech@gmail.com'
-EMAIL_HOST_PASSWORD = 'ynee msmy tjgn xdjf'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'quest.users.tech@gmail.com'
+# EMAIL_HOST_PASSWORD = 'ynee msmy tjgn xdjf'
