@@ -2,7 +2,7 @@ from .base import *
 import dj_database_url
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -21,8 +21,8 @@ DATABASES['default'] = dj_database_url.parse(database_url)
 AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY')
 # AWS_PRIVATE_BUCKET_NAME applies to s3-example-public-and-private only
-AWS_STORAGE_BUCKET_NAME = 'Futmx-Lodge'
-AWS_PRIVATE_BUCKET_NAME = 'Futmx-Lodge'
+AWS_STORAGE_BUCKET_NAME = 'Impact-Community'
+AWS_PRIVATE_BUCKET_NAME = 'Impact-Community'
 AWS_S3_REGION_NAME = 'us-east-005'
 AWS_S3_ENDPOINT_URL = 'https://s3.us-east-005.backblazeb2.com'
 AWS_S3_FILE_OVERWRITE = False
@@ -35,7 +35,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'futmxlodge@gmail.com'
+EMAIL_HOST_USER = 'quest.users.tech@gmail.com'
 EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
