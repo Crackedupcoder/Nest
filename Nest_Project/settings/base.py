@@ -52,12 +52,12 @@ INSTALLED_APPS = [
     #third party
     'ckeditor',
     'taggit',
-    'debug_toolbar',
+    # 'debug_toolbar',
     'storages',
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -153,9 +153,9 @@ CKEDITOR_CONFIGS = {
 }}
 
 
-INTERNAL_IPS = [
- '127.0.0.1',
-] 
+# INTERNAL_IPS = [
+#  '127.0.0.1',
+# ] 
 
 
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
