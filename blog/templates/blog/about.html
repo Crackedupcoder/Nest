@@ -2,389 +2,101 @@
 {% load static %}
 {% block content %}
 
-<link href="{% static 'css/style3.css' %}" rel="stylesheet" />
-<link href="{% static 'css/mobrise-icons.css' %}" rel="stylesheet" />
-<link href="{% static 'css/mobrise2.css' %}" rel="stylesheet" />
-<link href="{% static 'css/mbr-additional.css' %}" rel="stylesheet" />
+{% block styles %}
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" /> 
+{% endblock styles %}
 
+{% include 'navbar.html' %}
 <body>
-    <style>
-        .avatar-sm {
-        height: 2.25rem;
-        width: 2.25rem;
-    }
-    .icon{
-        margin-right: 5px !important;
-    }
-      </style>
-      <!-- Navigation-->
-        {% include 'navbar.html' %}
+  <main id="main">
+    <!-- ======= Intro Single ======= -->
+    <section class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">We Make Finding Accomondation So Easy</h1>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="{% url 'index' %}">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  About
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Intro Single-->
 
-<section data-bs-version="5.1" class="header1 cid-t0rbVLgdhW mbr-fullscreen" id="aheader1-4">
-      
-      <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(255, 255, 255);">
-      </div>
+    <!-- ======= About Section ======= -->
+    <section class="section-about">
       <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-8">
-                  <h3 class="mbr-section-title mbr-fonts-style align-center display-1"><span style="font-size: 2.2rem; -webkit-text-fill-color: transparent; background-color: transparent;"><strong>Impact Community </strong></span></h3>
-                  <h4 class="mbr-section-subtitle align-center mbr-fonts-style display-7">
-                      To be part of the Success story of every youth.<br>
-                      To build a network that consist of excellent leaders and positive influencer.
-                  </h4>
-                  <div class="mbr-section-btn align-center">
-                      <a class="btn btn-primary-outline display-7" href="https://mobiri.se">VIEW MORE</a>
-                  </div>
-              </div>
+        <div class="row">
+          <div class="col-sm-12 position-relative">
+            <div class="about-img-box">
+              <img src="{% static 'assets/img/slide-about-1.jpg' %}" alt="" class="img-fluid">
+            </div>
+            <div class="sinse-box">
+              <h3 class="sinse-title">FutMX Lodge
+                <span></span>
+                <br> Sinse 2023
+              </h3>
+              <p>Real Estate</p>
+            </div>
           </div>
-      </div>
-  </section>
-  
-  <section data-bs-version="5.1" class="list1 cid-t0reobMkEM" id="alist1-8">
-      <div class="align-center container">
-          <div class="row justify-content-center">
-              <div class="mbr-section-head col-12">
-                  <div id="bootstrap-accordion_6" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                      <div class="title-container">
-                          <div class="text-wrapper">
-                              <p class="label-text mbr-fonts-style align-left display-2"><strong>
-                                  Welcome To Creative&nbsp;Company Landing Page</strong></p>
-                              <h2 class="mbr-section-title mbr-fonts-style align-left display-7"><strong>Lorem ipsum dolor sit amet, consectetur adipiing Elit a enean ipsum enim,&nbsp;</strong><strong>commodo in sapie accumsan maximus Cras eu nulla sit.</strong></h2>
-                            
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-header" role="tab" id="headingOne">
-                              <a role="button" class="panel-title" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_6" aria-expanded="true" aria-controls="collapse1">
-                                  <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5"><strong>We Are Creative</strong></h6>
-                                  <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                              </a>
-                          </div>
-                          <div id="collapse1_6" class="panel-collapse noScroll collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
-                              <div class="panel-body">
-                                  <div class="panel-body-text"></div>
-                                  <div class="img-container img-container-1">
-                                      <img src="{% static 'assets/img/post-bg.jpg' %}" alt="Mobirise">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-header" role="tab" id="headingOne">
-                              <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_6" aria-expanded="false" aria-controls="collapse2">
-                                  <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5"><strong></strong>
-                                  <div><span style="font-size: 2.2rem; -webkit-text-fill-color: transparent; background-color: transparent;"><strong>Powerfull Admin Panel</strong></span><br></div></h6>
-                                  <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                              </a>
-                          </div>
-                          <div id="collapse2_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
-                              <div class="panel-body">
-                                  <div class="panel-body-text"></div>
-                                  <div class="img-container img-container-2">
-                                      <img src="assets/images/features2.jpg" alt="Mobirise">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-header" role="tab" id="headingOne">
-                              <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_6" aria-expanded="false" aria-controls="collapse3">
-                                  <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5"><strong>Full Responsive</strong></h6>
-                                  <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                              </a>
-                          </div>
-                          <div id="collapse3_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
-                              <div class="panel-body">
-                                  <div class="panel-body-text"></div>
-                                  <div class="img-container img-container-3">
-                                      <img src="assets/images/features1.jpg" alt="Mobirise">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card">
-                          <div class="card-header" role="tab" id="headingOne">
-                              <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_6" aria-expanded="false" aria-controls="collapse4">
-                                  <h6 class="panel-title-edit mbr-fonts-style mb-0 display-5"><strong>Development</strong></h6>
-                                  <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                              </a>
-                          </div>
-                          <div id="collapse4_6" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_6">
-                              <div class="panel-body">
-                              <div class="panel-body-text"></div>
-                                  <div class="img-container img-container-4">
-                                      <img src="assets/images/features2.jpg" alt="Mobirise">
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+          <div class="col-md-12 section-t8 position-relative">
+            <div class="row">
+              <div class="col-md-6 col-lg-5">
+                <img src="{% static 'assets/img/about-2.jpg' %}" alt="" class="img-fluid">
               </div>
-          </div>
-      </div>
-  </section>
-  
-  
-<section data-bs-version="5.1" class="features9 cid-t0rf5RbRWT" id="afeatures9-9">
-      <div class="container-fluid">
-          <div class="row justify-content-center">
-              <div class="col-12 col-img">
-                  <div class="img-container">
-                      <img src="{% static 'assets/img/home-bg.jpg' %}">
-                  </div>
+              <div class="col-lg-2  d-none d-lg-block position-relative">
+                <div class="title-vertical d-flex justify-content-start">
+                  <span>FutMX Lodge</span>
+                </div>
               </div>
-  
-              <div class="col-12 col-text">
-                  <div class="text-container">
-                      <div class="text-wrapper">
-                          <p class="label-text mbr-fonts-style display-2"><strong>
-                              Programs
-                          </strong></p>
-                          <h2 class="mbr-section-title mbr-fonts-style display-7"><strong>Lorem ipsum dolor sit amet, consectetur adipiscing occaecat sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris occaecat aliquip occaecat commodo consequat Duis aute irure dolor.</strong><br><br><strong>
-  </strong><div><strong>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour.</strong></div></h2>
-                          
-                          <div class="lines-container">
-                              <div class="line-container line-container1">
-                                  <p class="line-text mbr-fonts-style display-4"><strong>HTML5 / CSS3</strong></p>
-                                  <div class="line">
-                                      <div class="line-active line-active1">
-                                          <span class="percent-text percent-text1">%</span>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                              <div class="line-container line-container2">
-                                  <p class="line-text mbr-fonts-style display-4"><strong>WordPress</strong></p>
-                                  <div class="line">
-                                      <div class="line-active line-active2">
-                                          <span class="percent-text percent-text2">%</span>
-                                      </div>
-                                  </div>
-                              </div>
-  
-                              <div class="line-container line-container3">
-                                  <p class="line-text mbr-fonts-style display-4"><strong>Branding</strong></p>
-                                  <div class="line">
-                                      <div class="line-active line-active3">
-                                          <span class="percent-text percent-text3">%</span>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  
-  <section data-bs-version="5.1" class="content1 cid-t0rfAIohlO" id="acontent1-b">
-      
-      
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-12">
-                  <h3 class="mbr-section-title mbr-fonts-style align-center display-2"><strong>Team Members</strong></h3>
-                  <h4 class="mbr-section-subtitle align-center mbr-fonts-style display-7">Lorem ipsum dolor sit amet, consectetur adipiing Elit a enean ipsum enim,
-  <div>commodo in sapie accumsan maximus Cras eu nulla sit.</div></h4>
+              <div class="col-md-6 col-lg-5 section-md-t3">
+                <div class="title-box-d">
+                  <h3 class="title-d">Explore Your Ideal
+                    <span class="color-d">Accommodation</span> Options
+                    <br>for a Comfortable University Experience.
+                  </h3>
+                </div>
+                <p class="color-text-a">
+
+                  Welcome to FutMX Lodge, your ultimate resource for simplifying the accommodation search process for college students. Navigating the world of housing options can be a daunting task, but we're here to make it easy, efficient, and stress-free.
+
+                  At FutMX Lodge, we understand the unique challenges that college students face when seeking accommodation. Whether you're a first-year student embarking on the exciting journey of university life or a seasoned upperclassman looking for the perfect off-campus housing, we've got you covered.
                   
+                  Our platform is designed with the specific needs of college students in mind. We offer a comprehensive database of housing options, ranging from on-campus dormitories to off-campus apartments and shared housing. You can easily filter and customize your search based on your preferences, budget, and proximity to your campus.
+                  
+                  What sets us apart is our commitment to providing reliable information and valuable resources to empower you in making informed decisions. We offer detailed property listings, including photos, amenities, and rental details, to give you a clear picture of what each accommodation option entails.
+                  
+                  Navigating the transition to college life is challenging enough, and finding the right place to call home shouldn't add to the stress. FutMX Lodge streamlines the process, saving you time and energy so you can focus on your studies and enjoying your college experience.
+                  
+                  Our user-friendly interface ensures a seamless experience, allowing you to explore housing options effortlessly. We also provide helpful tips, guides, and articles on various aspects of student accommodation, offering insights into the rental process, roommate dynamics, and creating a comfortable living space.
+                  
+                  Whether you're moving across the country for college or staying close to home, FutMX Lodge is your go-to resource for finding the ideal accommodation that suits your lifestyle and preferences. Let us help you make the most of your college years by taking the hassle out of the accommodation search process.
+                  
+                  Start your journey with FutMX Lodge today and embark on the exciting adventure of finding the perfect place to call home during your college years!
+                </p>
               </div>
+            </div>
           </div>
+        </div>
       </div>
-  </section>
-  
-  <section data-bs-version="5.1" class="people1 cid-t0rfzPstod" id="apeople1-a">
-      
-      
-      <div class="container">
-          <div class="row">
-            {% for member in members %}
-              <div class="item features-image сol-12 col-md-4">
-                  <div class="item-wrapper">
-                      <div class="img-wrap">
-                          <div class="item-img">
-                            <img  style="border-radius: 50%;" src="{{member.image.url}}">
-                              <div class="img-overlay"></div>
-                          </div>
-                          <div class="item-content">
-                              <div class="links-container">
-                                  <p class="link-text mbr-fonts-style mb-0 display-7">
-                                     {% if member.facebook %}
-                                      <a class="text-black" target="_blank" href="https:{{member.facebook}}">FACEBOOK</a>
-                                    {% endif %}
-                                    {% if member.twitter %}
-                                      <a class="text-black" target="_blank" href="https:{{member.twitter}}">TWITTER</a>
-                                    {% endif %}
-                                    {% if member.linkedIn %}
-                                      <a class="text-black" target="_blank" href="https:{{member.linkedIn}}">LINKEDIN</a>
-                                    {% endif %}
-                                    {% if member.instagram %}
-                                      <a class="text-black" target="_blank" href="https:{{member.instagram}}">INSTAGRAM</a>
-                                    {% endif %}
-                                    </p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="item-text-container">
-                          <p class="title-text mbr-fonts-style align-center display-5">
-                              <strong>{{member.name}}</strong>
-                          </p>
-                          <p class="mbr-text mbr-fonts-style align-center display-7"><strong>{{member.position}}</strong><br></p>
-                      </div>
-                  </div>
-              </div>
-              {% endfor %}
-          </div>
-      </div>
-  </section>
-  
-  <section data-bs-version="5.1" class="header3 cid-t0rg2PaoF9" id="aheader3-c">
-  
-      
-  
-      <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
-  
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-12 col-text">
-                  <div class="text-container">
-                      <div class="text-wrapper">
-                          <h2 class="mbr-section-title mbr-fonts-style align-center display-2"><strong>Impact Community</strong></h2>
-                          <p class="mbr-text mbr-fonts-style display-7">
-                         Thrives with the goal of empowering youth towards building and achieving a 
-                         bigger picture of the inpound potential.<br>
-                         To be a positive examples and influence to our immedaite environment<br>
-                         we support and engage in ideas, campaigns and project that tends to aid humanity
-                         especially those of little assistance, build capacity, community development, individual growth 
-                         e.t.c<br>
-                         we advocate for United Nations sustainable development goals(SDG's) 1,4,6,8,9,13 and 15
-                          </p>
-                          
-                      </div>
-                  </div>
-              </div>
-  
-              <div class="col-12 col-img"></div>
-          </div>
-      </div>
-  </section>
-  
- 
-  
-  <section data-bs-version="5.1" class="features3 cid-t0rhlyQ62C" id="afeatures3-f">
-      <div class="container">
-          <div class="row justify-content-center">
-              <div class="col-12 col-md-6 col-text">
-                  <div class="text-container">
-                      <div class="text-wrapper">
-                          
-                          <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>What We Offer</strong></h2>
-                          <p class="mbr-text mbr-fonts-style display-7">
-                              Ut enim ad minim veniam, quis nostrud exercitation ullamconisi ut aliquip ex
-                          </p>
-                          <div class="btn-container">
-                              
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-md-6 col-cards">
-                  <div class="cards-wrap">
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/img2.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      Art direction</strong></p>
-                              </div>
-                          </div>
-                      </div>
-  
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/img2.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      Development</strong></p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/img5.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      Web Design</strong></p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/post-bg.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      SEO</strong></p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/img5.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      Graphic Design</strong></p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="card col-12 col-sm-6 col-md-4">
-                          <div class="card-wrap">
-                              <div class="img-container">
-                                  <div class="img-wrap">
-                                      <div class="img-bg"></div>
-                                      <img src="{% static 'assets/img/img7.jpg' %}" alt="">
-                                  </div>
-                              </div>
-                              <div class="card-caption">
-                                  <p class="card-text mbr-fonts-style display-7"><strong>
-                                      Content Writing</strong></p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
-        <!-- Footer-->
-        {% include 'footer.html' %}
+    </section>
+  </main><!-- End #main -->
 
 </body>
 
-
-{% endblock %}
+{% block script %}
+<script src="{% static 'js/main.js' %}"></script>
+{% endblock script %}
+  
+{% endblock content %}
