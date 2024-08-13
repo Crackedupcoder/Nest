@@ -20,7 +20,7 @@
                             <h2 class="subheading">{{post.description}}</h2>
                             <span class="meta">
                                 Posted by
-                                <a href="#!">{{post.author}}</a>
+                                <a href="{% url 'about' post.author %}">{{post.author}}</a>
                                 on {{post.created}}
                             </span>
                         </div>
